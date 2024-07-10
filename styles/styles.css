@@ -37,44 +37,44 @@ nav ul li {
 
 /* developer part */
 .developer {
-    width: 1550px;
+    width: 1530px;
     height: 652px;
-     /* border: 2px solid red; */
+    /* border: 2px solid red; */
     margin: 0px auto;
-    text-align: center ;    
-    background-image: url(../assets/Hero-bg.png); 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-size: cover;
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
-.developer-nigga{
+.developer-nigga {
     width: 998px;
     height: 583.2px;
     flex-direction: column;
-     /* border: 2px solid yellowgreen; */
+    /* border: 2px solid yellowgreen; */
 }
 
-.developer-img{
+.developer-img {
     width: 240.28px;
     height: 240px;
     text-align: center;
     display: inline-block;
 }
 
-.boro-text{
+.boro-text {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 20px;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.btn{
+.btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
@@ -89,4 +89,105 @@ margin-bottom: 20px;
     padding: 25px 35px;
     width: 208px;
     height: 60px;
+}
+
+/* why web dev part1 */
+
+.natural {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.natural-heading {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.natural-para {
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.banner-content {
+    margin-left: 140px;
+}
+
+.banner-heading {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    opacity: 0.7;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.banner-btn {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 12px;
+    text-align: center;
+    padding: 15px 25px;
+    color: rgb(13, 19, 33);
+}
+
+.banner-pic {
+    width: 259.56px;
+    height: 217.01px;
+    justify-content: flex-end;
+    margin-right: 240px;
+    margin-top: 60px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* why web dev part2  */
+
+.banner-two {
+    display: flex;
+    align-items: center;
+}
+
+.banner-pic-two {
+    margin-left: 50px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.banner-content-two {
+    justify-content: space-between;
+    width: 477px;
+    height: 220px;
+    padding-left: 240px;
+    justify-content:right;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* part3 */
+
+.banner-three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
 }
