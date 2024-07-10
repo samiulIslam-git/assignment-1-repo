@@ -1,4 +1,12 @@
 /* 1st line */
+
+.azeret-mono-<uniquifier> {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -8,7 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 80px 140px;
+    margin-bottom: 55px;
 }
 
 .awlad-bro {
@@ -175,7 +183,7 @@ nav ul li {
     width: 477px;
     height: 220px;
     padding-left: 240px;
-    justify-content:right;
+    justify-content: right;
 
 
     /* Inside Auto Layout */
@@ -186,8 +194,44 @@ nav ul li {
 
 /* part3 */
 
-.banner-three{
+.banner-three {
     display: flex;
     justify-content: space-between;
     margin-top: 85px;
+}
+
+/* inspiration */
+
+.inspiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inspiration-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.inspiration {
+    text-align: center;
+}
+
+/* youtube link */
+
+.inspiration-source {
+    text-align: center;
+    margin-top: 25px;
 }
