@@ -42,6 +42,7 @@ nav {
     font-weight: 600px;
     opacity: 0.8;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -102,6 +103,7 @@ nav ul li {
     padding: 15px 15px;
     width: 210px;
     height: 65px;
+    cursor: pointer;
 }
 
 /* why web dev part1 */
@@ -292,7 +294,7 @@ nav ul li {
 .support {
     text-align: center;
     margin-top: 5px;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .support-title {
@@ -317,15 +319,12 @@ nav ul li {
     justify-content: center;
 }
 
-.search-button {
+    .search-button{
     width: 548px;
     height: 57px;
     flex-direction: row;
-    justify-content: center padding: 19px 20px 19px 20px;
-    order: 0;
+    justify-content: center;
     margin: 0px 16px;
-
-    /* font style */
     color: rgba(13, 19, 33, 0.4);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -351,7 +350,7 @@ nav ul li {
     background: rgb(255, 255, 255);
     margin-top: 35px;
     text-align: center;
-    padding:4px;
+    padding: 4px;
 }
 
 .big-box {
@@ -367,6 +366,34 @@ nav ul li {
     margin-left: 200px;
 }
 
-.support-section{
+.support-section {
     margin-top: 40px;
+}
+
+
+/* footer part */
+
+.foot {
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 55px;
+    display:flex;
+    flex-direction: row;
+}
+
+.icons { 
+    margin-right: 100px;
+    gap: 30px;
+    text-align: right;
+}
+
+.my-info {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.ico {
+    gap: 30px;
 }
